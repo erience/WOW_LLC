@@ -1,8 +1,6 @@
 import Image from "next/image"
 import Link from "next/link";
 
-import breadcrumbShape_1 from "@/assets/img/images/breadcrumb_shape01.png";
-import breadcrumbShape_2 from "@/assets/img/images/breadcrumb_shape02.png";
 
 const Breadcrumb = ({ title }: any) => {
    return (
@@ -23,8 +21,8 @@ const Breadcrumb = ({ title }: any) => {
             </div>
          </div>
          <div className="breadcrumb-shape-wrap">
-            <Image src={breadcrumbShape_1} alt="" className="alltuchtopdown" />
-            <Image src={breadcrumbShape_2} alt="" className="rotateme" />
+            <Image width={100} height={100} src={"/assets/img/images/breadcrumb_shape01.png"} alt="" className="alltuchtopdown" />
+            <Image width={100} height={100} src={"/assets/img/images/breadcrumb_shape02.png"} alt="" className="rotateme" />
          </div>
       </section>
    )

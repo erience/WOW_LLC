@@ -1,7 +1,5 @@
 import Image from "next/image";
 
-import intro_thumb from "@/assets/img/update/normal/intro_1-1.png";
-import choose_thumb_2 from "@/assets/img/update/normal/3d-illustration-bitcoin.png"
 import { useTranslations } from "next-intl";
 
 interface DataType {
@@ -31,7 +29,7 @@ const IntroDEX = () => {
                     </div>
                     <div className="col-xl-6">
                         <div className="intro-thumb1 alltuchtopdown custom_img">
-                            <Image src={choose_thumb_2} alt="img" />
+                            <Image width={100} height={100} src={"/assets/img/update/normal/3d-illustration-bitcoin.png"} alt="img" />
                         </div>
                     </div>
                 </div>

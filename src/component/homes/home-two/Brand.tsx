@@ -2,13 +2,8 @@
 import Image, { StaticImageData } from 'next/image';
 import Slider from 'react-slick';
 
-import brand_1 from '@/assets/img/update/client/client-2-1.svg';
-import brand_2 from '@/assets/img/update/client/client-2-2.svg';
-import brand_3 from '@/assets/img/update/client/client-2-3.svg';
-import brand_4 from '@/assets/img/update/client/client-2-4.svg';
-import brand_5 from '@/assets/img/update/client/client-2-5.svg';
 
-const brand_data: StaticImageData[] = [brand_1, brand_2, brand_3, brand_4, brand_5, brand_1, brand_2, brand_3];
+const brand_data: string[] = ['/assets/img/update/client/client-2-1.svg', '/assets/img/update/client/client-2-2.svg', '/assets/img/update/client/client-2-3.svg', '/assets/img/update/client/client-2-4.svg', '/assets/img/update/client/client-2-5.svg', '/assets/img/update/client/client-2-1.svg', '/assets/img/update/client/client-2-2.svg', '/assets/img/update/client/client-2-3.svg'];
 
 const settings = {
    dots: false,

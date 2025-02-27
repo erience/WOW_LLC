@@ -1,36 +1,32 @@
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 
-import icon_1 from "@/assets/img/update/invest/invest-icon-1.png"
-import icon_2 from "@/assets/img/update/invest/invest-icon-2.png"
-import icon_3 from "@/assets/img/update/invest/invest-icon-3.png"
-import icon_4 from "@/assets/img/update/invest/invest-icon-4.png"
 
 interface DataType {
    id: number;
-   icon: StaticImageData;
+   icon: StaticImageData | string;
    title: string;
 }
 
 const invest_data: DataType[] = [
    {
       id: 1,
-      icon: icon_1,
+      icon: "/assets/img/update/invest/invest-icon-1.png",
       title: "Enclose BTC",
    },
    {
       id: 2,
-      icon: icon_2,
+      icon: "/assets/img/update/invest/invest-icon-2.png",
       title: "Enclose ETH",
    },
    {
       id: 3,
-      icon: icon_3,
+      icon: "/assets/img/update/invest/invest-icon-3.png",
       title: "Bank Transfer",
    },
    {
       id: 4,
-      icon: icon_4,
+      icon: "/assets/img/update/invest/invest-icon-4.png",
       title: "Enclose UXC",
    },
 ];
@@ -51,7 +47,7 @@ const InvestArea = () => {
                   <div key={item.id} className="col-lg-3 col-md-6">
                      <div className="invest-card">
                         <div className="invest-card-icon">
-                           <Image src={item.icon} alt="icon" />
+                           <Image width={100} height={100} src={item.icon} alt="icon" />
                         </div>
                         <Link className="btn btn3" href="#">{item.title}</Link>
                      </div>

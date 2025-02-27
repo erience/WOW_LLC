@@ -1,16 +1,10 @@
 import Image, { StaticImageData } from "next/image";
 
-import shape_1 from "@/assets/img/update/feature/feature-shape-2-1.png"
-import shape_2 from "@/assets/img/update/feature/feature-shape-2-2.png"
-import shape_3 from "@/assets/img/update/feature/feature-shape-2-3.png"
-import feature_thumb_1 from "@/assets/img/update/feature/feature-card-thumb-1.png"
-import feature_thumb_2 from "@/assets/img/update/feature/feature-card-thumb-2.png"
-import feature_thumb_3 from "@/assets/img/update/feature/feature-card-thumb-3.png"
 
 interface DataType {
    id: number;
    title: string;
-   thumb: StaticImageData;
+   thumb: StaticImageData | string;
    desc_1: string;
    desc_2: string;
 }[];
@@ -19,14 +13,14 @@ const feature_data: DataType[] = [
    {
       id: 1,
       title: "Transference",
-      thumb: feature_thumb_2,
+      thumb: "/assets/img/update/feature/feature-card-thumb-2.png",
       desc_1: "We’ve worked with over 400 companies to build blockchain solutions for their business.",
       desc_2: "We’ve worked with over 400 companies to build",
    },
    {
       id: 2,
       title: "Secure & Safe",
-      thumb: feature_thumb_3,
+      thumb: "/assets/img/update/feature/feature-card-thumb-3.png",
       desc_1: "We’ve worked with over 400 companies to build blockchain solutions for their business.",
       desc_2: "We’ve worked with over 400 companies to build",
    },
@@ -36,9 +30,9 @@ const FeatureArea = () => {
    return (
       <div className="feature-area-2 pt-110 pb-140 position-relative overflow-hidden" style={{ backgroundImage: `url(/assets/img/update/bg/feature-area-bg.png)`, backgroundSize: "cover", backgroundPosition: "center" }} id="blockchain">
          <div className="feature-area-shape">
-            <Image className="feature-shape2-1 alltuchtopdown" src={shape_1} alt="img" />
-            <Image className="feature-shape2-2 alltuchtopdown" src={shape_2} alt="img" />
-            <Image className="feature-shape2-3 leftToRight" src={shape_3} alt="img" />
+            <Image width={100} height={100} className="feature-shape2-1 alltuchtopdown" src={"/assets/img/update/feature/feature-shape-2-1.png"} alt="img" />
+            <Image width={100} height={100} className="feature-shape2-2 alltuchtopdown" src={"/assets/img/update/feature/feature-shape-2-2.png"} alt="img" />
+            <Image width={100} height={100} className="feature-shape2-3 leftToRight" src={"/assets/img/update/feature/feature-shape-2-3.png"} alt="img" />
          </div>
          <div className="container">
             <div className="row justify-content-center">
@@ -65,7 +59,7 @@ const FeatureArea = () => {
                      </div>
                   </div>
                   <div className="feature-card-img">
-                     <Image className="alltuchtopdown" src={feature_thumb_1} alt="img" />
+                     <Image width={100} height={100} className="alltuchtopdown" src={"/assets/img/update/feature/feature-card-thumb-1.png"} alt="img" />
                   </div>
                </div>
                {feature_data.map((item) => (
@@ -76,7 +70,7 @@ const FeatureArea = () => {
                         <p className="feature-card-text">{item.desc_2}</p>
                      </div>
                      <div className="feature-card-img">
-                        <Image src={item.thumb} alt="img" />
+                        <Image width={100} height={100} src={item.thumb} alt="img" />
                      </div>
                   </div>
                ))}

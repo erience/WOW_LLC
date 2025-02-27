@@ -1,7 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
 
-import ctaThumb from "@/assets/img/update/normal/cta_3-1.png";
 
 const CtaAreaTwo = () => {
    return (
@@ -18,7 +17,7 @@ const CtaAreaTwo = () => {
                   </Link>
                </div>
                <div className="cta-3-thumb movingX">
-                  <Image src={ctaThumb} alt="img" />
+                  <Image width={100} height={100} src={"/assets/img/update/normal/cta_3-1.png"} alt="img" />
                </div>
             </div>
          </div>

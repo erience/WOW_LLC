@@ -1,7 +1,5 @@
 import Image from "next/image"
 
-import thumb_1 from "@/assets/img/update/normal/intro_1-1.png"
-import thumb_2 from "@/assets/img/update/feature/feature-thumb-3-1.png"
 
 const FeatureAreaTwo = () => {
    return (
@@ -13,8 +11,8 @@ const FeatureAreaTwo = () => {
             <div className="row">
                <div className="col-xl-6 text-center">
                   <div className="feature-thumb-wrap">
-                     <Image className="feature-thumb-3-1 alltuchtopdown" src={thumb_1} alt="img" />
-                     <Image className="feature-thumb-3-2" src={thumb_2} alt="img" />
+                     <Image width={100} height={100} className="feature-thumb-3-1 alltuchtopdown" src={"/assets/img/update/normal/intro_1-1.png"} alt="img" />
+                     <Image width={100} height={100} className="feature-thumb-3-2" src={"/assets/img/update/feature/feature-thumb-3-1.png"} alt="img" />
                      <div className="feature-thumb-circle spin"></div>
                   </div>
                </div>

@@ -1,11 +1,6 @@
 import Image, { StaticImageData } from "next/image";
 
-import choose_thumb_1 from "@/assets/img/update/bg/bg-gradient1-1.jpg"
-import choose_thumb_2 from "@/assets/img/update/normal/why_1-1.png"
 
-import icon_1 from "@/assets/img/update/icon/feature-icon1-1.svg"
-import icon_2 from "@/assets/img/update/icon/feature-icon1-2.svg"
-import icon_3 from "@/assets/img/update/icon/feature-icon1-3.svg"
 
 interface DataType {
    id: number;
@@ -18,7 +13,7 @@ interface DataType {
 
 interface DataType2 {
    id: number;
-   icon: StaticImageData;
+   icon: StaticImageData | string;
    title: string;
    price?: string;
    desc: string;
@@ -54,20 +49,20 @@ const amount_data: DataType[] = [
 const choose_data: DataType2[] = [
    {
       id: 1,
-      icon: icon_1,
+      icon: "/assets/img/update/icon/feature-icon1-1.svg",
       title: "The expected value of your investment",
       price: "180,000",
       desc: "ROI = 360 %",
    },
    {
       id: 2,
-      icon: icon_2,
+      icon: "/assets/img/update/icon/feature-icon1-2.svg",
       title: "Expected monthly dividend",
       desc: "3600 FOX = 1296 $",
    },
    {
       id: 3,
-      icon: icon_3,
+      icon: "/assets/img/update/icon/feature-icon1-3.svg",
       title: "Masternode bonus",
       price: "180,000",
       desc: "ROI = 360 %",
@@ -78,7 +73,7 @@ const ChooseArea = () => {
    return (
       <div className="wcu-area-1 pt-130 pb-140 position-relative" id="feature">
          <div className="bg-gradient-1">
-            <Image src={choose_thumb_1} alt="img" />
+            <Image width={100} height={100} src={"/assets/img/update/bg/bg-gradient1-1.jpg"} alt="img" />
          </div>
          <div className="container">
             <div className="mb-25">
@@ -92,7 +87,7 @@ const ChooseArea = () => {
                   </div>
                   <div className="col-lg-5">
                      <div className="wcu-thumb text-center alltuchtopdown">
-                        <Image src={choose_thumb_2} alt="img" />
+                        <Image width={100} height={100} src={"/assets/img/update/normal/why_1-1.png"} alt="img" />
                      </div>
                   </div>
                </div>
@@ -132,7 +127,7 @@ const ChooseArea = () => {
                   {choose_data.map((item) => (
                      <div key={item.id} className="feature-card">
                         <div className="feature-card-icon">
-                           <Image src={item.icon} alt="img" />
+                           <Image width={100} height={100} src={item.icon} alt="img" />
                         </div>
                         <div className="feature-card-details">
                            <h4 className="feature-card-title">{item.title}</h4>

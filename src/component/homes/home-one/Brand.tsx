@@ -4,17 +4,15 @@ import Image from "next/image"
 import Link from "next/link";
 import Slider from "react-slick";
 
-import brandImg_1 from "@/assets/img/brand/EtherAuthorityLogoDarkBlue.svg"
-import brandImg_2 from "@/assets/img/brand/QuillAudits.svg"
 import { useTranslations } from "next-intl";
 
 const brand_data = [
     {
-        image: brandImg_1,
+        image: "/assets/img/brand/EtherAuthorityLogoDarkBlue.svg",
         link: "https://etherauthority.io/wow-token-smart-contract-audit/"
     },
     {
-        image: brandImg_2,
+        image: "/assets/img/brand/QuillAudits.svg",
         link: "https://www.quillaudits.com/leaderboard/wow-token"
     }
 ];
@@ -79,7 +77,7 @@ const Brand = () => {
                         {brand_data.map((item, i) => (
                             <div key={i}>
                                 <Link href={item.link} className="brand-item" target="_blank" rel="noopener noreferrer">
-                                    <Image src={item.image} alt="" />
+                                    <Image width={100} height={100} src={item.image} alt="" />
                                 </Link>
                             </div>
                         ))}

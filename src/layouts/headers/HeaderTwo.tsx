@@ -7,7 +7,6 @@ import NavMenuTwo from "./Menu/NavMenuTwo";
 import Sidebar from "./Menu/Sidebar";
 import HeaderOffcanvas from "./Menu/HeaderOffcanvas";
 
-import logo_1 from "@/assets/img/logo/logo.svg";
 
 const HeaderTwo = () => {
     const { sticky } = UseSticky();
@@ -24,7 +23,7 @@ const HeaderTwo = () => {
                                 <div className="menu-wrap">
                                     <nav className="menu-nav">
                                         <div className="logo">
-                                            <Link href="/"><Image src={logo_1} alt="Logo" /></Link>
+                                            <Link href="/"><Image width={100} height={100} src={"/assets/img/logo/logo.svg"} alt="Logo" /></Link>
                                         </div>
                                         <div className="navbar-wrap main-menu d-none d-lg-flex">
                                             <NavMenuTwo />

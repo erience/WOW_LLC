@@ -1,8 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
 
-import commentAvatar_1 from "@/assets/img/blog/comment01.png"
-import commentAvatar_2 from "@/assets/img/blog/comment02.png"
 
 const BlogComment = () => {
    return (
@@ -13,7 +11,7 @@ const BlogComment = () => {
                <li>
                   <div className="comments-box">
                      <div className="comments-avatar">
-                        <Image src={commentAvatar_1} alt="img" />
+                        <Image width={100} height={100} src={'/assets/img/blog/comment01.png'} alt="img" />
                      </div>
                      <div className="comments-text">
                         <div className="avatar-name">
@@ -28,7 +26,7 @@ const BlogComment = () => {
                      <li>
                         <div className="comments-box">
                            <div className="comments-avatar">
-                              <Image src={commentAvatar_2} alt="img" />
+                              <Image width={100} height={100} src={"/assets/img/blog/comment02.png"} alt="img" />
                            </div>
                            <div className="comments-text">
                               <div className="avatar-name">

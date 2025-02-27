@@ -3,13 +3,10 @@ import Slider from "react-slick";
 import React, { useRef } from "react";
 import Image, { StaticImageData } from "next/image"
 
-import testi_bg from "@/assets/img/update/bg/testimonial-4-bg.png"
-import avatar_1 from "@/assets/img/update/testimonial/testi_thumb1_1.png"
-import avatar_2 from "@/assets/img/update/testimonial/testi_thumb1_2.png"
 
 interface DataType {
    id: number;
-   avatar: StaticImageData;
+   avatar: StaticImageData | string;
    title: string;
    designation: string;
    des: JSX.Element;
@@ -19,7 +16,7 @@ interface DataType {
 const testi_data: DataType[] = [
    {
       id: 1,
-      avatar: avatar_1,
+      avatar: "/assets/img/update/testimonial/testi_thumb1_1.png",
       title: "Romero Eli",
       designation: "Developer",
       des: (<>I&apos;ve tested numerous technologies, but this one is leaps and bounds ahead of the competition. It&apos;s phenomenal.</>),
@@ -27,7 +24,7 @@ const testi_data: DataType[] = [
    },
    {
       id: 2,
-      avatar: avatar_2,
+      avatar: "/assets/img/update/testimonial/testi_thumb1_2.png",
       title: "Gomez Goles",
       designation: "Product Designers",
       des: (<>I can&apos;t express how impressed I am with this technology. It outshines anything I&apos;ve ever used before & up to the mark.</>),
@@ -35,7 +32,7 @@ const testi_data: DataType[] = [
    },
    {
       id: 3,
-      avatar: avatar_1,
+      avatar: "/assets/img/update/testimonial/testi_thumb1_1.png",
       title: "Romero Eli",
       designation: "Developer",
       des: (<>I&apos;ve tested numerous technologies, but this one is leaps and bounds ahead of the competition. It&apos;s phenomenal.</>),
@@ -43,7 +40,7 @@ const testi_data: DataType[] = [
    },
    {
       id: 4,
-      avatar: avatar_2,
+      avatar: "/assets/img/update/testimonial/testi_thumb1_2.png",
       title: "Gomez Goles",
       designation: "Product Designers",
       des: (<>I can&apos;t express how impressed I am with this technology. It outshines anything I&apos;ve ever used before & up to the mark.</>),
@@ -134,7 +131,7 @@ const Testimonia = () => {
                <div className="testimonial-wrap-circle2 leftToRight"></div>
                <div className="testimonial-wrap-circle3 leftToRight"></div>
                <div className="testimonial-wrap-bg alltuchtopdown">
-                  <Image src={testi_bg} alt="img" />
+                  <Image width={100} height={100} src={"/assets/img/update/bg/testimonial-4-bg.png"} alt="img" />
                </div>
 
                <div className="slider-area testimonial-slider-wrap">
@@ -144,7 +141,7 @@ const Testimonia = () => {
                            <div className="testi-box ">
                               <div className="testi-box-profile">
                                  <div className="testi-box-profile-thumb">
-                                    <Image src={item.avatar} alt="img" />
+                                    <Image width={100} height={100} src={item.avatar} alt="img" />
                                  </div>
                                  <div className="testi-box-profile-details">
                                     <h4 className="testi-box_name">{item.title}</h4>

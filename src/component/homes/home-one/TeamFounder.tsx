@@ -1,12 +1,10 @@
 import Image, { StaticImageData } from "next/image"
 import Link from "next/link"
 
-import founder_thumb_1 from "@/assets/img/update/team/founder-1-1.png"
-import founder_thumb_2 from "@/assets/img/update/team/founder-1-2.png"
 
 interface DataType {
    id: number;
-   thumb: StaticImageData;
+   thumb: StaticImageData | string;
    title: string;
    designasion: string
 }[];
@@ -14,13 +12,13 @@ interface DataType {
 const founder_data: DataType[] = [
    {
       id: 1,
-      thumb: founder_thumb_1,
+      thumb: "/assets/img/update/team/founder-1-1.png",
       title: "Eleanor Pena",
       designasion: "Founder & CEO",
    },
    {
       id: 2,
-      thumb: founder_thumb_2,
+      thumb: "/assets/img/update/team/founder-1-2.png",
       title: "William Xeno",
       designasion: "Founder & CEO",
    },
@@ -38,7 +36,7 @@ const TeamFounder = () => {
                   <div key={item.id} className="col-lg-6">
                      <div className="founder-card">
                         <div className="founder-card-img">
-                           <Image src={item.thumb} alt="img" />
+                           <Image width={100} height={100} src={item.thumb} alt="img" />
                         </div>
                         <div className="founder-card-details">
                            <h3 className="founder-card-title">{item.title}</h3>

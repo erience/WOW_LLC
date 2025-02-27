@@ -1,6 +1,5 @@
 import Image from "next/image";
 
-import intro_thumb from "@/assets/img/update/client/wow estate.png";
 import { useTranslations } from "next-intl";
 
 interface DataType {
@@ -67,7 +66,7 @@ const IntroRealEstate = () => {
                     </div>
                     <div className="col-xl-6">
                         <div className="intro-thumb1 alltuchtopdown">
-                            <Image src={intro_thumb} alt="img" />
+                            <Image width={100} height={100} src={"/assets/img/update/client/wow estate.png"} alt="img" />
                         </div>
                         {intro_data.slice(5, 6).map((item, index) => (
                             <div key={index} className="intro-wrap mt-70">

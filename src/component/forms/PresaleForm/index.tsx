@@ -5,7 +5,6 @@ import { toast } from 'react-toastify';
 import { Icon } from '@iconify/react';
 import s from './PresaleForm.module.scss';
 import { useTranslations } from "next-intl";
-import wow from '@/assets/img/icons/WOW.svg'
 import Image from "next/image";
 import { useAccount } from "wagmi";
 import Web3 from "web3";
@@ -310,7 +309,7 @@ const PresaleForm = () => {
                             value={tokenAmount}
                             readOnly
                         />
-                        <Image src={wow} alt="wow" />
+                        <Image width={100} height={100} src={"/assets/img/icons/WOW.svg"} alt="wow" style={{width: "32px", height: "32px"}} />
                     </div>
                 </div>
 

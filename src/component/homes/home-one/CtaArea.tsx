@@ -3,12 +3,10 @@ import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 import Slider from "react-slick";
 
-import icon_1 from "@/assets/img/update/client/press-1-1.svg";
-import icon_2 from "@/assets/img/update/client/press-1-1.svg";
 
 interface DataType {
    id: number;
-   icon: StaticImageData;
+   icon: StaticImageData | string;
    title: string;
    desc: JSX.Element;
 }[];
@@ -16,25 +14,25 @@ interface DataType {
 const cta_data: DataType[] = [
    {
       id: 1,
-      icon: icon_1,
+      icon: "/assets/img/update/client/press-1-1.svg",
       title: "huffpost.com",
       desc: (<>UniFox seeks to incorporate cryptocurrencies into everyday life through the introduction of their autonomous design.</>),
    },
    {
       id: 2,
-      icon: icon_2,
+      icon: "/assets/img/update/client/press-1-1.svg",
       title: "msnbc.com",
       desc: (<>In excellence from Tether or love another &quot;stable&quot; crippling. Unicash can easily be converted to local currency by special bankers </>),
    },
    {
       id: 3,
-      icon: icon_1,
+      icon: "/assets/img/update/client/press-1-1.svg",
       title: "huffpost.com",
       desc: (<>UniFox seeks to incorporate cryptocurrencies into everyday life through the introduction of their autonomous design.</>),
    },
    {
       id: 4,
-      icon: icon_2,
+      icon: "/assets/img/update/client/press-1-1.svg",
       title: "msnbc.com",
       desc: (<>In excellence from Tether or love another &quot;stable&quot; crippling. Unicash can easily be converted to local currency by special bankers </>),
    },
@@ -102,7 +100,7 @@ const CtaArea = () => {
                   <div key={item.id} className="col-lg-6">
                      <div className="cta-wrap1">
                         <div className="cta-wrap-details">
-                           <Image src={item.icon} alt="img" />
+                           <Image width={100} height={100} src={item.icon} alt="img" />
                            <h3 className="cta-wrap-title">{item.title}</h3>
                            <p className="cta-wrap-text">{item.desc}</p>
                         </div>

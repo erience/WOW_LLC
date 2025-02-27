@@ -2,8 +2,6 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import footerShape_1 from "@/assets/img/images/footer_shape01.png";
-import footerShape_2 from "@/assets/img/images/footer_shape02.png";
 import NewsletterForm from "@/component/forms/NewsletterForm";
 
 interface DataType {
@@ -82,8 +80,8 @@ const FooterThree = () => {
                </div>
             </div>
             <div className="footer-shape-wrap">
-               <Image src={footerShape_1} alt="" className="alltuchtopdown" />
-               <Image src={footerShape_2} alt="" className="leftToRight" />
+               <Image width={100} height={100} src={"/assets/img/images/footer_shape01.png"} alt="" className="alltuchtopdown" />
+               <Image width={100} height={100} src={"/assets/img/images/footer_shape02.png"} alt="" className="leftToRight" />
             </div>
          </div>
       </footer>

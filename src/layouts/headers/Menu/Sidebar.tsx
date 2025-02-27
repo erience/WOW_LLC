@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import MobileMenu from "./MobileMenu";
 
-import logo_1 from "@/assets/img/logo/logo.svg";
 
 const Sidebar = ({ isActive, setIsActive }: any) => {
 
@@ -13,7 +12,7 @@ const Sidebar = ({ isActive, setIsActive }: any) => {
                 <nav className="menu-box">
                     <div onClick={() => setIsActive(false)} className="close-btn"><i className="fas fa-times"></i></div>
                     <div className="nav-logo">
-                        <Link href="/"><Image src={logo_1} alt="Logo" /><span>WOW</span></Link>
+                        <Link href="/"><Image width={100} height={100} src={"/assets/img/logo/logo.svg"} alt="Logo" /><span>WOW</span></Link>
                     </div>
                     <div className="menu-outer">
                         <MobileMenu setIsActive={setIsActive} />

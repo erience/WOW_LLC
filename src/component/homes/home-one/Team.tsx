@@ -5,7 +5,6 @@ import TeamFounder from "./TeamFounder"
 import team_data from "@/data/TeamData";
 import Link from "next/link";
 
-import team_bg from "@/assets/img/update/bg/bg-gradient1-1.jpg"
 
 const Team = () => {
    // Init one ref to store the future Isotope object
@@ -46,7 +45,7 @@ const Team = () => {
    return (
       <div className="pt-130 pb-140 overflow-hidden position-relative z-index-common">
          <div className="bg-gradient-3">
-            <Image src={team_bg} alt="img" />
+            <Image width={100} height={100} src={"/assets/img/update/bg/bg-gradient1-1.jpg"} alt="img" />
          </div>
          <TeamFounder />
 
@@ -69,7 +68,7 @@ const Team = () => {
                                  <li key={t_item.id}>
                                     <div className="team-card">
                                        <div className="team-card_img">
-                                          <Image src={t_item.thumb} alt="Team Image" />
+                                          <Image width={100} height={100} src={t_item.thumb} alt="Team Image" />
                                           <div className="social-btn">
                                              <Link href="https://www.linkedin.com/">
                                                 <i className="fab fa-linkedin"></i>

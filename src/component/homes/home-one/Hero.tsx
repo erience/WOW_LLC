@@ -2,7 +2,6 @@ import Image from "next/image"
 import Link from "next/link"
 import { useTranslations } from 'next-intl';
 
-import hero_thumb from "@/assets/img/update/hero/hero-1-1.jpg"
 import PresaleForm from "@/component/forms/PresaleForm"
 import { Button } from "@/component/Button";
 
@@ -25,7 +24,7 @@ const Hero = () => {
                     <div className="row flex-row-reverse">
                         <div className="col-lg-3">
                             <div className="hero-thumb alltuchtopdown">
-                                <Image src={hero_thumb} alt="img" />
+                                <Image width={100} height={100} src={"/assets/img/update/hero/hero-1-1.jpg"} alt="img" />
                             </div>
                         </div>
                         <div className="col-lg-9">

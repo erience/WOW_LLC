@@ -4,7 +4,6 @@ import { useState } from "react";
 import VideoPopup from "@/modals/VideoPopup";
 import Link from "next/link"
 
-import cta_thumb from "@/assets/img/update/bg/cta-2-shape1.png"
 
 const CtaArea = () => {
 
@@ -14,7 +13,7 @@ const CtaArea = () => {
       <>
       <div className="pt-140 pb-140 position-relative z-index-common">
          <div className="bg-gradient-5"></div>
-         <div className="cta-2-shape1 alltuchtopdown"><Image src={cta_thumb} alt="img" /></div>
+         <div className="cta-2-shape1 alltuchtopdown"><Image src={"/assets/img/update/bg/cta-2-shape1.png"} alt="img" /></div>
          <div className="cta-2-shape2 alltuchtopdown"></div>
          <div className="cta-2-shape3 leftToRight"></div>
          <div className="container">

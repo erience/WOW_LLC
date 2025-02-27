@@ -574,7 +574,8 @@ label {
     font-size: 14px;
 }
 
-.header-action .header-login a, .header-action .header-login button {
+.header-action .header-login a,
+.header-action .header-login button {
     text-transform: uppercase;
     font-size: 14px;
     display: flex;
@@ -587,17 +588,20 @@ label {
     border-radius: 30px;
 }
 
-.header-action .header-login a i, .header-action .header-login button i {
+.header-action .header-login a i,
+.header-action .header-login button i {
     color: var(--tg-primary-color);
     transition: all 0.3s ease-out 0s;
 }
 
-.header-action .header-login a:hover, .header-action .header-login button:hover {
+.header-action .header-login a:hover,
+.header-action .header-login button:hover {
     background: var(--tg-primary-color);
     color: var(--tg-white);
 }
 
-.header-action .header-login a:hover i, .header-action .header-login button:hover i {
+.header-action .header-login a:hover i,
+.header-action .header-login button:hover i {
     color: var(--tg-white);
 }
 
@@ -4192,7 +4196,18 @@ label {
 
 .hero-1 .hero-thumb {
     margin: 0 -47px;
+    width: 100%;
 }
+
+.hero-1 .hero-thumb img {
+    width: 100%;
+}
+
+.faq-thumb,
+.faq-thumb img {
+    width: 100%;
+}
+
 
 @keyframes ripple {
     0% {

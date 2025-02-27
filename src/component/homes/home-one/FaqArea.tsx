@@ -1,6 +1,5 @@
 import Image from "next/image";
 
-import faq_thumb_1 from "@/assets/img/update/normal/1-dark.png";
 import { useTranslations } from "next-intl";
 
 const FaqArea = () => {
@@ -66,7 +65,7 @@ const FaqArea = () => {
                             <p className="sec-text">{t('tagline')}</p>
                         </div>
                         <div className="faq-thumb mt-60">
-                            <Image src={faq_thumb_1} alt="img" />
+                            <Image width={100} height={100} src={"/assets/img/update/normal/1-dark.png"} alt="img" />
                         </div>
                     </div>
                     <div className="col-xxl-6 col-xl-8">

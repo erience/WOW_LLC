@@ -1,7 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
 
-import thumb_1 from "@/assets/img/update/normal/why_1-1.png";
 
 const FeatureAreaThree = () => {
    return (
@@ -40,7 +39,7 @@ const FeatureAreaThree = () => {
                <div className="row align-items-center">
                   <div className="col-lg-6">
                      <div className="feature-wrap4-thumb text-center alltuchtopdown">
-                        <Image src={thumb_1} alt="img" />
+                        <Image width={100} height={100} src={"/assets/img/update/normal/why_1-1.png"} alt="img" />
                      </div>
                   </div>
                   <div className="col-lg-6">

@@ -2,7 +2,6 @@
 import Image from "next/image"
 import Link from "next/link"
 
-import logo_1 from "@/assets/img/logo/logo.svg"
 
 const FooterTwo = () => {
    return (
@@ -13,7 +12,7 @@ const FooterTwo = () => {
                   <div className="widget footer-widget">
                      <div className="widget-about">
                         <div className="footer-logo">
-                           <Link href="/"><Image src={logo_1} style={{ height: "35px" }} alt="iko" /></Link>
+                           <Link href="/"><Image width={100} height={100} src={"/assets/img/logo/logo.svg"} style={{ height: "35px" }} alt="iko" /></Link>
                         </div>
                         <p className="about-text">Iko is a cutting-edge blockchain technology company at the forefront of innovation in the decentralized ledger space. Established in 2024</p>
                         <div className="social-btn style2">

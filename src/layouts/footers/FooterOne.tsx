@@ -1,7 +1,6 @@
 import Image from "next/image"
 import Link from "next/link";
 
-import footer_bg from "@/assets/img/update/bg/bg-gradient1-1.jpg";
 import { useTranslations } from "next-intl";
 
 const FooterOne = () => {
@@ -10,7 +9,7 @@ const FooterOne = () => {
     return (
         <footer className="footer-wrapper footer-layout1 position-relative">
             <div className="bg-gradient-1">
-                <Image src={footer_bg} alt="img" />
+                <Image width={100} height={100} src={"/assets/img/update/bg/bg-gradient1-1.jpg"} alt="img" />
             </div>
             <div className="container">
                 <div className="footer-menu-area">

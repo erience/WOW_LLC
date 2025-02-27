@@ -9,7 +9,6 @@ import Sidebar from "./Menu/Sidebar";
 import HeaderOffcanvas from "./Menu/HeaderOffcanvas";
 import LocalSwitcher from "@/component/LocalSwitcher";
 
-import logo_1 from "@/assets/img/logo/logo.svg";
 import { useTranslations } from "next-intl";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import CustomConnectButton from "@/component/CustomConnectButton";
@@ -31,7 +30,7 @@ const HeaderOne = () => {
                                 <div className="menu-wrap">
                                     <nav className="menu-nav">
                                         <div className="logo">
-                                            <Link href="/"><Image src={logo_1} alt="Logo" /><span>WOW</span></Link>
+                                            <Link href="/"><Image width={100} height={100} src={"/assets/img/logo/logo.svg"} alt="Logo" /><span>WOW</span></Link>
                                         </div>
                                         <div className="navbar-wrap main-menu d-none d-lg-flex">
                                             <NavMenu />

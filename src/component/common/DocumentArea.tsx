@@ -2,7 +2,6 @@ import Link from "next/link"
 import DocumentForm from "../forms/DocumentForm"
 import Image from "next/image"
 
-import docShape from "@/assets/img/images/document_shape.png"
 
 const doc_data: string[] = ["Whitepaper", "Token Sale Terms", "Presentation", "Lightpaper"]
 
@@ -45,7 +44,7 @@ const DocumentArea = () => {
             </div>
          </div>
          <div className="document-shape">
-            <Image src={docShape} alt="" className="alltuchtopdown" />
+            <Image width={100} height={100} src={"/assets/img/images/document_shape.png"} alt="" className="alltuchtopdown" />
          </div>
       </section>
    )

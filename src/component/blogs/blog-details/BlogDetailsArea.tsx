@@ -4,11 +4,6 @@ import BlogComment from "../blog-common/BlogComment";
 import BlogForm from "@/component/forms/BlogForm";
 import BlogSidebar from "../blog-common/BlogSidebar";
 
-import blogThumb_1 from "@/assets/img/blog/blog_details.jpg";
-import blogThumb_2 from "@/assets/img/blog/blog_details02.jpg";
-import blogThumb_3 from "@/assets/img/blog/blog_details03.jpg";
-import blogAvatar_1 from "@/assets/img/blog/blog_author01.png";
-import blogAvatar_2 from "@/assets/img/blog/avatar.png";
 
 interface ContentData {
     title_1: string;
@@ -46,13 +41,13 @@ const BlogDetailsArea = ({ single_blog }: any) => {
                     <div className="col-lg-8">
                         <div className="blog-details-wrap">
                             <div className="blog-details-thumb">
-                                {single_blog?.thumb ? <Image src={single_blog.thumb} alt="image" /> : <Image src={blogThumb_1} alt="image" />}
+                                {single_blog?.thumb ? <Image src={single_blog.thumb} alt="image" /> : <Image src={"/assets/img/blog/blog_details.jpg"} alt="image" />}
                             </div>
                             <div className="blog-details-content">
                                 <div className="blog-meta">
                                     <ul className="list-wrap">
                                         <li className="blog-author">
-                                            <Link href="/blog-details">{single_blog?.author_avatar ? <Image src={single_blog?.author_avatar} alt="" /> : <Image src={blogAvatar_1} alt="" />}
+                                            <Link href="/blog-details">{single_blog?.author_avatar ? <Image src={single_blog?.author_avatar} alt="" /> : <Image src={"/assets/img/blog/blog_author01.png"} alt="" />}
                                                 {single_blog?.author_name ? single_blog.author_name : "Stacey Moore"}
                                             </Link>
                                         </li>
@@ -75,10 +70,10 @@ const BlogDetailsArea = ({ single_blog }: any) => {
                                 <div className="blog-details-inner-img">
                                     <div className="row">
                                         <div className="col-md-6">
-                                            <Image src={blogThumb_2} alt="" />
+                                            <Image src={"/assets/img/blog/blog_details02.jpg"} alt="" />
                                         </div>
                                         <div className="col-md-6">
-                                            <Image src={blogThumb_3} alt="" />
+                                            <Image src={"/assets/img/blog/blog_details03.jpg"} alt="" />
                                         </div>
                                     </div>
                                 </div>
@@ -114,7 +109,7 @@ const BlogDetailsArea = ({ single_blog }: any) => {
 
                         <div className="blog-avatar-wrap mb-65">
                             <div className="blog-avatar-img">
-                                <Link href="#"><Image src={blogAvatar_2} alt="img" /></Link>
+                                <Link href="#"><Image src={"/assets/img/blog/avatar.png"} alt="img" /></Link>
                             </div>
                             <div className="blog-avatar-info">
                                 <h4 className="name"><Link href="#">About Anik Singal</Link></h4>

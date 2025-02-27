@@ -1,6 +1,5 @@
 import Image from "next/image"
 
-import event_bg from "@/assets/img/update/bg/bg-gradient1-2.jpg"
 import event_data from "@/data/EventData"
 import Link from "next/link"
 import CtaArea from "./CtaArea"
@@ -9,7 +8,7 @@ const EventArea = () => {
    return (
       <div className="pt-130 pb-140 bg-black2 overflow-hidden position-relative z-index-common">
          <div className="bg-gradient-4">
-            <Image src={event_bg} alt="img" />
+            <Image width={100} height={100} src={"/assets/img/update/bg/bg-gradient1-2.jpg"} alt="img" />
          </div>
 
          <div className="event-area">
@@ -23,7 +22,7 @@ const EventArea = () => {
                         <div className="event-card">
                            <div className="event-card-img">
                               <Link href="#">
-                                 <Image src={item.thumb} alt="blog image" />
+                                 <Image width={100} height={100} src={item.thumb} alt="blog image" />
                               </Link>
                            </div>
                            <div className="event-card-content">

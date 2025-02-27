@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import hero_thumb from "@/assets/img/update/hero/bitcoin.svg";
 
 const HeroArea = () => {
    return (
@@ -21,7 +20,7 @@ const HeroArea = () => {
                <div className="row">
                   <div className="col-lg-12">
                      <h6 className="hero-subtitle">GET NEW SOLUTION</h6>
-                     <h1 className="hero-title">Blockcha<span>i<Image className="bitcoin" src={hero_thumb} alt="img" /></span>n</h1>
+                     <h1 className="hero-title">Blockcha<span>i<Image width={100} height={100} className="bitcoin" src={"/assets/img/update/hero/bitcoin.svg"} alt="img" /></span>n</h1>
                      <div className="btn-wrap">
                         <h3 className="hero-title2">Technology for business</h3>
                         <div className="hero-content">
