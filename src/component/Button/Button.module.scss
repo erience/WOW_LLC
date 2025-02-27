@@ -1,0 +1,120 @@
+.btn {
+    --transition-link: 0.25s cubic-bezier(0.305, 0.045, 0.355, 1);
+    --btn-color: var(--tg-secondary-color);
+    background: var(--tg-white);
+    color: var(--tg-dark);
+    position: relative;
+    transition: transform 0.1s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 14px;
+    gap: 0.75em;
+    font-weight: 700;
+    padding: 18px 45px;
+    border-radius: 100px;
+    user-select: none;
+
+    &>span {
+        z-index: 5;
+        line-height: 1;
+    }
+
+    &>* {
+        pointer-events: none;
+    }
+
+    &:active {
+        transform: scale(0.95);
+    }
+
+    svg {
+        transform: scale(1.5);
+        margin-right: -0.25em;
+        color: var(--color);
+        z-index: 1;
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        transition: opacity var(--transition-link), border-color var(--transition-link);
+        background: var(--btn-color) ;
+        mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+        -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+        mask-composite: add, add;
+        -webkit-mask-composite: xor;
+        mask-composite: exclude;
+        border-radius: inherit;
+    }
+
+    &::after {
+        content: "\f054";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 700;
+        color: var(--tg-primary-color);
+        line-height: 1;
+        margin-left: 40px;
+        transition: all 0.3s ease 0s;
+      }
+
+    &[data-type="secondary"] {
+        background: var(--tg-secondary-color);
+        color: var(--tg-white);
+        --btn-color: var(--tg-primary-color);
+
+        &::before {
+            opacity: 0.25;
+        }
+    }
+
+    &:hover {
+        color: var(--tg-white);
+        .light {
+            transition: opacity 0.5s;
+            opacity: 0.75;
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+        padding: 18px 25px;
+
+        &::after{
+            margin-left: 15px;
+        }
+    }
+}
+
+.group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75em;
+    max-width: 100%;
+
+    &>* {
+        flex: 1;
+    }
+
+    @media screen and (min-width: 480px) {
+        display: inline-flex;
+    }
+}
+
+.light {
+    --y: 10px;
+    --x: 50px;
+    transition: opacity 1s, background 0.25s cubic-bezier(0.305, 0.045, 0.355, 1);
+    position: absolute;
+    z-index: 0;
+    border-radius: inherit;
+    inset: 0;
+    overflow: hidden;
+    background: var(--btn-color);
+    pointer-events: auto;
+    opacity: 0;
+    mask: radial-gradient(circle at var(--x) var(--y), rgba(0, 0, 0, 0.7) 0%, transparent 100%);
+    -webkit-mask: radial-gradient(circle at var(--x) var(--y), rgba(0, 0, 0, 0.7) 0%, transparent 100%);
+}

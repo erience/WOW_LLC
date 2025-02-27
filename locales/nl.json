@@ -1,0 +1,187 @@
+{
+  "SEO": {
+    "title": "Wereld van Web3",
+    "description": "WOW LLC revolutioneert wereldwijd vermogensbeheer."
+  },
+  "Header": {
+    "button": "KOOP NU",
+    "Ecosystem": "Ecosysteem",
+    "Tokenomics": "Tokenomics",
+    "Whitepaper": "Whitepaper",
+    "Win-3M": "Win $3 miljoen",
+    "Roadmap": "Roadmap",
+    "Faq": "FAQs"
+  },
+  "HomePage": {
+    "title": "WOW LLC",
+    "tagline": "De toekomst van vermogensbeheer",
+    "desc": "WOW LLC revolutioneert wereldwijd vermogensbeheer. Breng real-world assets – vastgoed, kunst, grondstoffen en intellectueel eigendom – naadloos in token-vorm op de blockchain. Ontgrendel onbeperkte liquiditeit, grensoverschrijdend eigendom en eindeloze investeringsmogelijkheden. Met blockchain-gedreven transparantie en efficiëntie creëert WOW LLC een gedecentraliseerd financieel ecosysteem waar innovatie en kansen samenkomen.",
+    "button1": "Whitepaper",
+    "button2": "Certik Audit",
+    "countdown": {
+      "title": "Presale",
+      "title2": "Fase 1",
+      "line1": "1 WOW = $0,01",
+      "line2": "Prijs volgende fase = $0,03",
+      "line3": "Lanceringsprijs = $0,9",
+      "skill-feature_list": {
+        "line1": "Waarde",
+        "line2": "investeringen in technologie",
+        "line3": "Privé",
+        "line4": "verkoop",
+        "chosen": "gekozen"
+      },
+      "lable1": "Bedrag in",
+      "lable1-span": "U betaalt:",
+      "placeholder1": "Bedrag invoeren",
+      "label2": "Ontvangen bedrag in tokens:",
+      "formBtn": "Wallet verbinden",
+      "submitBtn":"indienen",
+      "hot-to-buy": "Hoe te kopen?",
+      "giveawayBtn": "$3 miljoen weggeefactie",
+      "Getting-Error": "Foutmelding? Klik hier?"
+    },
+    "Brand": {
+       "title": "Beveiligingsaudits"
+    },
+    "IntroRealEstate": {
+      "title": "Ontgrendel onbeperkte investeringsmogelijkheden",
+      "tagline": "Introductie Vastgoed",
+      "Q1": {
+        "txt": "Investeer in echte activa:",
+        "ans": "Krijg naadloos toegang tot een breed scala aan getokeniseerde activa, van vastgoed tot grondstoffen en bedrijven."
+      },
+      "Q2": {
+        "txt": "Fractioneel eigendom:",
+        "ans": "Bezit een deel van hoogwaardige activa, waardoor exclusieve investeringen voor iedereen toegankelijk worden."
+      },
+      "Q3": {
+        "txt": "Gedemocratiseerd investeren:",
+        "ans": "Een eenvoudig, veilig en transparant platform, ontworpen om moeiteloos uw portfolio te diversifiëren."
+      },
+      "Q4": {
+        "txt": "Vastgoed voor iedereen:",
+        "ans": "Betreed de vastgoedmarkt zonder hoge kapitaaleisen."
+      },
+      "Q5": {
+        "txt": "Meer bezitten, slimmer investeren:",
+        "ans": "Verwerf aandelen in edelmetalen, startups en bloeiende sectoren met slechts een paar klikken."
+      },
+      "Q6": {
+        "txt": "Grensoverschrijdende markttoegang:",
+        "ans": "Profiteer van wereldwijde investeringsmogelijkheden, allemaal vanaf één krachtig platform."
+      }
+    },
+    "IntroDEX": {
+      "title": "WOW Ecosystem",
+      "p": "Stap in de toekomst van blockchain en digitale activa met WOW LLC. Of u nu investeert in vastgoed, activa tokeniseert of duikt in de wereld van NFT's, ons platform biedt de tools om uw financiële reis te verbeteren.",
+      "p2": "Handel veilig, krijg toegang tot tokenfinanciering en maximaliseer uw rendement met geavanceerde strategieën voor opbrengstoptimalisatie. Aangedreven door naadloze multi-chain technologie, zorgt WOW LLC voor efficiënte transacties en onbeperkte investeringsgroei.",
+      "partners": {
+        "p1": {
+          "title": "WOW Estate",
+          "desc": "WOW Estate verbindt fysieke activa met blockchain, waardoor gebruikers veilig en naadloos kunnen investeren in getokeniseerd vastgoed, waardoor eigendom van onroerend goed toegankelijk, transparant en grensoverschrijdend wordt."
+        },
+        "p2": {
+          "title": "WOW Bank",
+          "desc": "WOW Bank biedt veilige en flexibele offshore banking, met naadloze financiële diensten, slimme investeringsmogelijkheden en wereldwijde toegang om uw vermogen met vertrouwen te beheren."
+        },
+        "p3": {
+          "title": "Token Locker",
+          "desc": "Met WOW Token Locker kunt u LP's, NFT's en tokens veilig opslaan, wat zorgt voor vertrouwen, transparantie en bescherming van uw activa. Veilig, gedecentraliseerd en gebruiksvriendelijk."
+        },
+        "p4": {
+          "title": "Ai Wallet",
+          "desc": "Uw crypto, uw manier! WOW Ai Wallet biedt AI-aangedreven automatisering, veilig vermogensbeheer en naadloze cross-chain transacties, waardoor crypto eenvoudig wordt voor iedereen."
+        },
+        "p5": {
+          "title": "Ai DEX",
+          "desc": "Welkom bij WOW Ai DEX, de AI-aangedreven gedecentraliseerde exchange die slimme handels inzichten, de beste prijzen en moeiteloze winstmaximalisatie biedt voor handelaren van alle niveaus."
+        },
+        "p6": {
+          "title": "Token Minter",
+          "desc": "Met WOW Token Minter kunt u eenvoudig tokens maken en lanceren via veilige, codevrije implementatie. Geen programmeren nodig – mint, pas aan en lanceer uw token moeiteloos!"
+        }
+      }
+    },
+    "Roadmap": {
+      "title": "Onze Roadmap",
+      "data": {
+        "roadmap1": {
+          "sub_title": "Eind Q4 2021",
+          "title": "Onderzoek",
+          "desc": "SubQuery Builders/Grants Program SQT Network contract interne MVP Coordinator en client SDK implementaties"
+        },
+        "roadmap2": {
+          "sub_title": "Eind Q4 2021",
+          "title": "App Beta Test",
+          "desc": "SubQuery Builders/Grants Program SQT Network contract interne MVP Coordinator en client SDK implementaties"
+        },
+        "roadmap3": {
+          "sub_title": "Eind Q4 2021",
+          "title": "Tokentest",
+          "desc": "SubQuery Builders/Grants Program SQT Network contract interne MVP Coordinator en client SDK implementaties"
+        },
+        "roadmap4": {
+          "sub_title": "Eind Q4 2021",
+          "title": "Alpha Test",
+          "desc": "SubQuery Builders/Grants Program SQT Network contract interne MVP Coordinator en client SDK implementaties"
+        },
+        "roadmap5": {
+          "sub_title": "Eind Q4 2021",
+          "title": "Concept",
+          "desc": "SubQuery Builders/Grants Program SQT Network contract interne MVP Coordinator en client SDK implementaties"
+        }
+      }
+    },
+    "FAQ": {
+      "title": "Veelgestelde vragen",
+      "tagline": "Heeft u vragen? We helpen u graag.",
+      "questions": {
+        "q1": {
+          "title": "Wat is WOW?",
+          "desc": "WOW LLC is een blockchainplatform dat de tokenisering van real-world assets mogelijk maakt. Ons ecosysteem biedt tools om assets zoals onroerend goed, edelmetalen en andere grondstoffen te tokeniseren, erin te investeren en te beheren, en zorgt voor transparantie en efficiëntie via blockchaintechnologie."
+        },
+        "q2": {
+          "title": "Welke assets kunnen worden getokeniseerd met WOW LLC?",
+          "desc": "WOW LLC ondersteunt de tokenisering van diverse assets, waaronder onroerend goed, kunst, goud en bedrijfsobligaties. Ons platform biedt de flexibiliteit om vrijwel elk waardevol asset op de blockchain te brengen."
+        },
+        "q3": {
+          "title": "Hoe begin ik met investeren met WOW LLC?",
+          "desc": "Om te beginnen met investeren met WOW LLC, ga naar {url}. Klik op {connect} en maak verbinding met uw DeFi Web3-wallet; wij raden MetaMask of Trust Wallet aan. Zorg ervoor dat u verbonden bent met de Ethereum Chain (ERC20) en voldoende ETH in uw wallet heeft. Selecteer uw gewenste valuta (ETH, USDT of USDC), voer het gewenste aankoopbedrag in en klik op {buy}. Rond de transactie af in uw wallet."
+        },
+        "q4": {
+          "title": "Wat is het doel van de WOW Token?",
+          "desc": "WOW is het symbool van de token van WOW LLC. De WOW-token wordt gebruikt voor governance binnen het WOW LLC-ecosysteem."
+        },
+        "q5": {
+          "title": "Hoe worden WOW Tokens aan mij geleverd?",
+          "desc": "WOW LLC (WOW) tokens worden in real-time naar uw wallet overgemaakt. Om het aantal tokens in uw wallet te bekijken, voegt u WOW toe als een aangepaste token."
+        },
+        "q6": {
+          "title": "Hoe kan ik contact opnemen met het WOW LLC-team?",
+          "desc": "U kunt contact met ons opnemen via ons contactformulier: {url} of door een e-mail te sturen naar: support@wow.llc."
+        },
+        "q7": {
+          "title": "Hoe kan ik mijn WOW tokens verkopen?",
+          "desc": "Aangezien we momenteel in de presale zitten, kunt u uw tokens niet verkopen of overmaken. Zodra WOW LLC live gaat, kunnen gebruikers ze vrij verhandelen op Uniswap."
+        },
+        "q8": {
+          "title": "Wat moet ik doen als mijn wallet is gehackt?",
+          "desc": "Helaas kunnen we in dit geval weinig doen. Vergeet nooit: deel uw Seed Phrase of Private Key nooit met iemand. Dit zijn zeer gevoelige gegevens en moeten te allen tijde veilig blijven."
+        }
+      }
+    }
+  },
+  "Footer": {
+    "Navigation": {
+      "home": "HOME",
+      "Our-projects": "ONZE PROJECTEN",
+      "out-team": "ONS TEAM",
+      "News-faq": "NIEUWS FAQ",
+      "Documents": "DOCUMENTEN"
+    },
+    "job-career": "Privacy & Policy",
+    "terms-condition": "Voorwaarden",
+    "help-center": "Helpcentrum"
+  }
+}

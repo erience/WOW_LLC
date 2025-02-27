@@ -1,0 +1,40 @@
+@import "react-toastify/dist/ReactToastify.css";
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+@import "react-modal-video/css/modal-video.css";
+
+@import "../../public/assets/css/animate.min.css";
+@import "../../public/assets/css/bootstrap.min.css";
+@import "../../public/assets/css/default.css";
+@import "../../public/assets/css/fontawesome-all.min.css";
+@import "../../public/assets/css/style.css";
+@import "../../public/assets/css/responsive.css";
+
+.wallet-btn {
+    padding: 14px 40px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 30px;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.wallet-btn:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 101%;
+    height: 100%;
+    border-radius: inherit;
+    background: linear-gradient(82.3deg, var(--tg-primary-color) 10.8%, var(--tg-dark) 94.3%);
+    transition: all 0.475s;
+    z-index: -1;
+    opacity: 0;
+}
+
+.wallet-btn:hover:before {
+    opacity: 1;
+}

@@ -1,0 +1,187 @@
+{
+  "SEO": {
+    "title": "Mundo Web3",
+    "description": "WOW LLC está revolucionando la gestión global de activos."
+  },
+  "Header": {
+    "button": "COMPRAR AHORA",
+    "Ecosystem": "Ecosistema",
+    "Tokenomics": "Tokenómica",
+    "Whitepaper": "Libro Blanco",
+    "Win-3M": "Gana $3M",
+    "Roadmap": "Hoja de ruta",
+    "Faq": "PF"
+  },
+  "HomePage": {
+    "title": "WOW LLC",
+    "tagline": "El Futuro de la Gestión de Activos",
+    "desc": "WOW LLC está revolucionando la gestión global de activos. Tokeniza y posee activos del mundo real —bienes raíces, arte, materias primas y propiedad intelectual— sin problemas en la cadena de bloques. Desbloquea liquidez ilimitada, propiedad sin fronteras y oportunidades de inversión ilimitadas. Con la transparencia y la eficiencia impulsadas por la cadena de bloques, WOW LLC está creando un ecosistema financiero descentralizado donde la innovación se encuentra con la oportunidad.",
+    "button1": "Libro Blanco",
+    "button2": "Auditoría Certik",
+    "countdown": {
+      "title": "Preventa",
+      "title2": "Fase 1",
+      "line1": "1 WOW = $0.01",
+      "line2": "Precio de la siguiente fase = $0.03",
+      "line3": "Precio de lanzamiento = $0.9",
+      "skill-feature_list": {
+        "line1": "Valor",
+        "line2": "de tecnología invertida",
+        "line3": "Privado",
+        "line4": "venta",
+        "chosen": "elegido"
+      },
+      "lable1": "Monto en",
+      "lable1-span": "Usted paga:",
+      "placeholder1": "Ingrese el monto",
+      "label2": "Monto en Tokens que recibirá:",
+      "formBtn": "Conectar Monedero",
+      "submitBtn":"entregar",
+      "hot-to-buy": "¿Cómo comprar?",
+      "giveawayBtn": "Regalo de $3 Millones",
+      "Getting-Error": "¿Recibiendo un error? Haga clic aquí"
+    },
+    "Brand": {
+      "title": "Auditorías de seguridad"
+    },
+    "IntroRealEstate": {
+      "title": "Desbloquee oportunidades de inversión ilimitadas",
+      "tagline": "Presentamos Bienes Raíces",
+      "Q1": {
+        "txt": "Invierta en activos del mundo real:",
+        "ans": "Acceda sin problemas a una amplia gama de activos tokenizados, desde bienes raíces hasta materias primas y empresas."
+      },
+      "Q2": {
+        "txt": "Propiedad fraccionada:",
+        "ans": "Posea una parte de activos de alto valor, haciendo que las inversiones exclusivas sean accesibles para todos."
+      },
+      "Q3": {
+        "txt": "Inversión democratizada:",
+        "ans": "Plataforma simple, segura y transparente diseñada para diversificar tu cartera sin esfuerzo."
+      },
+      "Q4": {
+        "txt": "Bienes Raíces para Todos:",
+        "ans": "Ingresa al mercado inmobiliario sin altas barreras de capital."
+      },
+      "Q5": {
+        "txt": "Posee Más, Invierte Inteligentemente:",
+        "ans": "Adquiere acciones en metales preciosos, startups e industrias prósperas con solo unos clics."
+      },
+      "Q6": {
+        "txt": "Acceso al Mercado Sin Fronteras:",
+        "ans": "Aprovecha las oportunidades de inversión global, todo desde una poderosa plataforma."
+      }
+    },
+    "IntroDEX": {
+      "title": "Ecosistema WOW",
+      "p": "Da el salto al futuro de la cadena de bloques y los activos digitales con WOW LLC. Ya sea que inviertas en bienes raíces, tokenices activos o te sumerjas en el mundo de los NFT, nuestra plataforma proporciona las herramientas para elevar tu trayectoria financiera.",
+      "p2": "Opera de forma segura, accede a financiación mediante tokens y maximiza tus rendimientos con estrategias avanzadas de optimización de rendimiento. Impulsada por una tecnología multicadena fluida, WOW LLC garantiza transacciones eficientes y un crecimiento de inversión ilimitado.",
+      "partners": {
+        "p1": {
+          "title": "WOW Estate",
+          "desc": "WOW Estate conecta activos del mundo real con la cadena de bloques, permitiendo a los usuarios invertir en bienes raíces tokenizados de forma segura y fluida, haciendo que la propiedad inmobiliaria sea accesible, transparente y sin fronteras."
+        },
+        "p2": {
+          "title": "WOW Bank",
+          "desc": "WOW Bank ofrece servicios bancarios offshore seguros y flexibles, proporcionando servicios financieros fluidos, oportunidades de inversión inteligentes y acceso global para gestionar tu patrimonio con confianza."
+        },
+        "p3": {
+          "title": "Token Locker",
+          "desc": "WOW Token Locker te permite bloquear de forma segura LPs, NFTs y tokens, garantizando la confianza, la transparencia y la protección de tus activos. Seguro, descentralizado y fácil de usar."
+        },
+        "p4": {
+          "title": "Ai Wallet",
+          "desc": "¡Tu cripto, a tu manera! WOW Ai Wallet ofrece automatización con IA, gestión segura de activos y transacciones transfronterizas fluidas, haciendo que las criptomonedas sean sencillas para todos."
+        },
+        "p5": {
+          "title": "Ai DEX",
+          "desc": "Bienvenido a WOW Ai DEX, el exchange descentralizado impulsado por IA que ofrece información inteligente sobre operaciones, los mejores precios y una maximización del beneficio sin esfuerzo para traders de todos los niveles."
+        },
+        "p6": {
+          "title": "Creador de Tokens",
+          "desc": "WOW Token Minter facilita la creación y el lanzamiento de tokens con una implementación segura y sin código. ¡No se necesita codificación: simplemente crea, personaliza y lanza tu token sin esfuerzo!"
+        }
+      }
+    },
+    "Roadmap": {
+      "title": "Nuestra Hoja de Ruta",
+      "data": {
+        "roadmap1": {
+          "sub_title": "Final del Q4 2021",
+          "title": "Investigación",
+          "desc": "SubQuery Builders/Grants Program, contrato de red SQT, coordinador MVP interno e implementaciones de SDK de cliente."
+        },
+        "roadmap2": {
+          "sub_title": "Final del Q4 2021",
+          "title": "Prueba Beta de la Aplicación",
+          "desc": "SubQuery Builders/Grants Program, contrato de red SQT, coordinador MVP interno e implementaciones de SDK de cliente."
+        },
+        "roadmap3": {
+          "sub_title": "Final del Q4 2021",
+          "title": "Prueba de Token",
+          "desc": "SubQuery Builders/Grants Program, contrato de red SQT, coordinador MVP interno e implementaciones de SDK de cliente."
+        },
+        "roadmap4": {
+          "sub_title": "Final del Q4 2021",
+          "title": "Prueba Alfa",
+          "desc": "SubQuery Builders/Grants Program, contrato de red SQT, coordinador MVP interno e implementaciones de SDK de cliente."
+        },
+        "roadmap5": {
+          "sub_title": "Final del Q4 2021",
+          "title": "Concepto",
+          "desc": "SubQuery Builders/Grants Program, contrato de red SQT, coordinador MVP interno e implementaciones de SDK de cliente."
+        }
+      }
+    },
+    "FAQ": {
+      "title": "Preguntas Frecuentes",
+      "tagline": "¿Tiene alguna pregunta? Estamos aquí para ayudar.",
+      "questions": {
+        "q1": {
+          "title": "¿Qué es WOW?",
+          "desc": "WOW LLC es una plataforma blockchain que permite la tokenización de activos del mundo real. Nuestro ecosistema proporciona herramientas para tokenizar, invertir y gestionar activos como bienes raíces, metales preciosos y otras materias primas, garantizando transparencia y eficiencia a través de la tecnología blockchain."
+        },
+        "q2": {
+          "title": "¿Qué activos se pueden tokenizar con WOW LLC?",
+          "desc": "WOW LLC admite la tokenización de diversos activos, incluyendo bienes raíces, arte, oro y bonos corporativos. Nuestra plataforma ofrece la flexibilidad para llevar casi cualquier activo valioso a la blockchain."
+        },
+        "q3": {
+          "title": "¿Cómo empezar a invertir con WOW LLC?",
+          "desc": "Para empezar a invertir con WOW LLC, visita {url}. Haz clic en {connect} y conéctate usando tu monedero DeFi Web3; recomendamos MetaMask o Trust Wallet. Asegúrate de estar conectado a la cadena Ethereum (ERC20) y de tener suficiente ETH en tu monedero. Selecciona tu moneda preferida (ETH, USDT o USDC), introduce la cantidad de compra deseada y haz clic en {buy}. Completa la transacción en tu monedero."
+        },
+        "q4": {
+          "title": "¿Cuál es el propósito del token WOW?",
+          "desc": "WOW es el símbolo del token de WOW LLC. El token WOW se utiliza para la gobernanza dentro del ecosistema WOW LLC."
+        },
+        "q5": {
+          "title": "¿Cómo se me entregarán los tokens WOW?",
+          "desc": "Los tokens WOW LLC (WOW) se transfieren a tu monedero en tiempo real. Para ver la cantidad de tokens en tu monedero, añade WOW como un token personalizado."
+        },
+        "q6": {
+          "title": "¿Cómo puedo ponerme en contacto con el equipo de WOW LLC?",
+          "desc": "Puedes contactarnos a través de nuestro formulario de contacto: {url} o enviándonos un correo electrónico a: support@wow.llc."
+        },
+        "q7": {
+          "title": "¿Cómo puedo vender mis tokens WOW?",
+          "desc": "Como actualmente estamos en preventa, no puedes vender ni transferir tus tokens. Una vez que WOW LLC entre en funcionamiento, los usuarios podrán intercambiarlos libremente en Uniswap."
+        },
+        "q8": {
+          "title": "¿Qué debo hacer si me piratean mi monedero?",
+          "desc": "Desafortunadamente, hay poco que podamos hacer en este caso. Recuerda siempre: Nunca compartas tu frase semilla ni tu clave privada con nadie. Estos son datos altamente sensibles y deben mantenerse seguros en todo momento."
+        }
+      }
+    }
+  },
+  "Footer": {
+    "Navigation": {
+      "home": "INICIO",
+      "Our-projects": "NUESTROS PROYECTOS",
+      "out-team": "NUESTRO EQUIPO",
+      "News-faq": "NOTICIAS PREGUNTAS FRECUENTES",
+      "Documents": "DOCUMENTOS"
+    },
+    "job-career": "Privacidad y Política",
+    "terms-condition": "Términos y Condiciones",
+    "help-center": "Centro de Ayuda"
+  }
+}

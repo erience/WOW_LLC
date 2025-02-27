@@ -1,0 +1,175 @@
+.presaleBlock {
+  display: flex;
+  justify-content: center;
+  padding: 48px 0 12px;
+}
+
+.currencySelection {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+
+  input[type="radio"] {
+    display: none;
+  }
+
+  label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 12px;
+    height: 100%;
+    font-size: 14px;
+    line-height: 1;
+    gap: 6px;
+    background: var(--tg-secondary-color);
+    border-radius: 4px;
+    color: var(--tg-white);
+    font-size: 28px;
+  }
+
+  span {
+    font-size: 18px;
+    line-height: 1;
+    text-align: center;
+  }
+
+  small {
+    display: block;
+    font-size: 10px;
+    line-height: 1;
+    color: var(--tg-body-font-color);
+    padding-top: 2px;
+  }
+
+  input[type="radio"]:checked+label {
+    background: var(--tg-primary-color);
+    color:  var(--tg-dark);
+
+    small {
+      color: var(--tg-dark);
+    }
+  }
+}
+
+.inputGroup {
+  margin: 24px 0;
+  text-align: left;
+
+  label {
+    margin-bottom: 6px;
+  }
+}
+
+.inputWrap {
+    position: relative;
+    width: 100%;
+    background: var(--tg-black2);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    border-radius: 6px;
+
+  input {
+    flex-grow: 1;
+    background: none;
+    color: var(--tg-white);
+    border: none;
+    padding: 6px;
+    font-size: 16px;
+    line-height: 1;
+    outline: none;
+    box-shadow: none;
+  }
+
+  button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0 6px;
+    font-size: 16px;
+    line-height: 1;
+    color: var(--tg-primary-color);
+    cursor: pointer;
+  }
+
+  .tokenIcon, img {
+    font-size: 32px;
+    line-height: 1;
+    margin: 0 6px;
+    color: #fff;
+  }
+}
+
+.bottomButtonsGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0;
+}
+
+.connectWrap {
+  margin-bottom: 24px;
+}
+
+.connect {
+  display: inline-block;
+  user-select: none;
+  background: var(--tg-primary-color);
+  color: var(--tg-dark);
+  border: medium none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -0.42px;
+  line-height: 1;
+  margin-bottom: 0;
+  padding: 18px 45px;
+  text-align: center;
+  text-transform: capitalize;
+  touch-action: manipulation;
+  transition: all 0.4s ease;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 100%;
+
+  &:hover {
+    background: var(--tg-secondary-color);
+    color: var(--tg-primary-color);
+  }
+}
+
+.extraButtons {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 12px;
+
+  svg {
+    margin-right: 2px;
+  }
+}
+
+@media (max-width: 767px) {
+  .extraButtons {
+    flex-direction: column;
+    gap: 12px;
+
+    *:global(.btn) {
+      justify-content: space-between;
+
+      &::after {
+        margin-left: 0;
+      }
+    }
+  }
+}
+@media (max-width: 400px) {
+    .presaleBlock {
+
+        form{
+        width: 100%;
+      }}
+}

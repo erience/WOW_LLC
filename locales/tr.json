@@ -1,0 +1,187 @@
+{
+  "SEO": {
+    "title": "Web3 Dünyası",
+    "description": "WOW LLC, küresel varlık yönetimini devrimleştiriyor."
+  },
+  "Header": {
+    "button": "ŞİMDİ AL",
+    "Ecosystem": "Ekosistem",
+    "Tokenomics": "Token Ekonomisi",
+    "Whitepaper": "Beyaz Kitap",
+    "Win-3M": "3 Milyon Dolar Kazan",
+    "Roadmap": "Yol Haritası",
+    "Faq": "SSS"
+  },
+  "HomePage": {
+    "title": "WOW LLC",
+    "tagline": "Varlık Yönetiminin Geleceği",
+    "desc": "WOW LLC, küresel varlık yönetimini devrimleştiriyor. Gayrimenkul, sanat, emtia ve fikri mülkiyet gibi gerçek dünya varlıklarını blockchain üzerinde sorunsuz bir şekilde tokenleştirin ve sahip olun. Sınırsız likidite, sınır tanımayan sahiplik ve sınırsız yatırım fırsatlarının kilidini açın. Blockchain destekli şeffaflık ve verimlilik ile WOW LLC, yeniliğin fırsatla buluştuğu merkezi olmayan bir finansal ekosistem oluşturuyor.",
+    "button1": "Beyaz Kitap",
+    "button2": "Certik Denetimi",
+    "countdown": {
+      "title": "Ön Satış",
+      "title2": "Aşama 1",
+      "line1": "1 WOW = 0,01 $",
+      "line2": "Bir Sonraki Aşama Fiyatı = 0,03 $",
+      "line3": "Lansman Fiyatı = 0,9 $",
+      "skill-feature_list": {
+        "line1": "Değer",
+        "line2": "Teknolojiye yapılan yatırım",
+        "line3": "Özel",
+        "line4": "satış",
+        "chosen": "seçildi"
+      },
+      "lable1": "Tutarı",
+      "lable1-span": "Ödemeniz:",
+      "placeholder1": "Tutarı Girin",
+      "label2": "Alacağınız Token Miktarı:",
+      "formBtn": "Cüzdan Bağla",
+      "submitBtn":"göndermek",
+      "hot-to-buy": "Nasıl Alınır?",
+      "giveawayBtn": "3 Milyon Dolarlık Hediye Çekilişi",
+      "Getting-Error": "Hata Alıyor musunuz? Buraya Tıklayın?"
+    },
+    "Brand": {
+      "title": "Güvenlik Denetimleri"
+    },
+    "IntroRealEstate": {
+      "title": "Sınırsız Yatırım Fırsatlarının Kilidini Açın",
+      "tagline": "Gayrimenkul Tanıtımı",
+      "Q1": {
+        "txt": "Gerçek Dünyadaki Varlıklara Yatırım Yapın:",
+        "ans": "Gayrimenkullerden emtialara ve işletmelere kadar çeşitli tokenlaştırılmış varlıklara sorunsuz bir şekilde erişin."
+      },
+      "Q2": {
+        "txt": "Kısmi Mülkiyet:",
+        "ans": "Yüksek değerli varlıkların bir payına sahip olun, özel yatırımları herkes için erişilebilir hale getirin."
+      },
+      "Q3": {
+        "txt": "Demokratikleştirilmiş Yatırım:",
+        "ans": "Portföyünüzü zahmetsizce çeşitlendirmek için tasarlanmış basit, güvenli ve şeffaf bir platform."
+      },
+      "Q4": {
+        "txt": "Herkes İçin Gayrimenkul:",
+        "ans": "Yüksek sermaye engelleri olmadan emlak piyasasına girin."
+      },
+      "Q5": {
+        "txt": "Daha Fazla Sahip Olun, Daha Akıllıca Yatırım Yapın:",
+        "ans": "Sadece birkaç tıklamayla kıymetli metallere, girişimlere ve gelişen sektörlere hisse senedi satın alın."
+      },
+      "Q6": {
+        "txt": "Sınırsız Piyasa Erişimi:",
+        "ans": "Tek bir güçlü platformdan tüm küresel yatırım fırsatlarına erişin."
+      }
+    },
+    "IntroDEX": {
+      "title": "WOW Ekosistemi",
+      "p": "WOW LLC ile blockchain ve dijital varlıkların geleceğine adım atın. Gayrimenkule yatırım yapıyor, varlıkları tokenlaştırıyor veya NFT dünyasına dalıyor olun, platformumuz finansal yolculuğunuzu geliştirmek için gerekli araçları sağlar.",
+      "p2": "Güvenli bir şekilde işlem yapın, token fonlarına erişin ve gelişmiş getiri optimizasyon stratejileriyle getirilerinizi en üst düzeye çıkarın. Sorunsuz çok zincirli teknolojiyle desteklenen WOW LLC, verimli işlemler ve sınırsız yatırım büyümesi sağlar.",
+      "partners": {
+        "p1": {
+          "title": "WOW Estate",
+          "desc": "WOW Estate, gerçek dünya varlıklarını blockchain ile birleştirerek kullanıcıların tokenlaştırılmış gayrimenkule güvenli ve sorunsuz bir şekilde yatırım yapmalarını, mülk sahipliğini erişilebilir, şeffaf ve sınırsız hale getirir."
+        },
+        "p2": {
+          "title": "WOW Bank",
+          "desc": "WOW Bank, güvenli ve esnek deniz aşırı bankacılık hizmeti sunarak sorunsuz finansal hizmetler, akıllı yatırım fırsatları ve varlığınızı güvenle yönetmek için küresel erişim sağlar."
+        },
+        "p3": {
+          "title": "Token Kilitleyici",
+          "desc": "WOW Token Kilitleyici, LP'lerinizi, NFT'lerinizi ve token'larınızı güvenli bir şekilde kilitlemenizi sağlayarak varlıklarınız için güven, şeffaflık ve koruma sağlar. Güvenli, merkezi olmayan ve kullanımı kolay."
+        },
+        "p4": {
+          "title": "Yapay Zeka Cüzdanı",
+          "desc": "Kripto paralarınız, sizin yolunuzda! WOW Yapay Zeka Cüzdanı, yapay zeka destekli otomasyon, güvenli varlık yönetimi ve sorunsuz zincirler arası işlemler sunarak kriptoyu herkes için kolaylaştırır."
+        },
+        "p5": {
+          "title": "Yapay Zeka DEX",
+          "desc": "Tüm seviyelerdeki yatırımcılar için akıllı işlem içgörüleri, en iyi fiyatlar ve zahmetsiz kar maksimizasyonu sunan yapay zeka destekli merkezi olmayan borsa WOW Yapay Zeka DEX'e hoş geldiniz."
+        },
+        "p6": {
+          "title": "Token Oluşturucu",
+          "desc": "WOW Token Oluşturucu, güvenli ve kodsuz dağıtım ile token oluşturmayı ve başlatmayı kolaylaştırır. Kodlama gerekmez—sadece oluşturun, özelleştirin ve token'ınızı zahmetsizce başlatın!"
+        }
+      }
+    },
+    "Roadmap": {
+      "title": "Yol Haritamız",
+      "data": {
+        "roadmap1": {
+          "sub_title": "2021 4. Çeyrek Sonu",
+          "title": "Araştırma",
+          "desc": "SubQuery Oluşturucular/Burs Programı SQT Ağ sözleşmesi dahili MVP Koordinatörü ve istemci SDK uygulamaları"
+        },
+        "roadmap2": {
+          "sub_title": "2021 4. Çeyrek Sonu",
+          "title": "Uygulama Beta Testi",
+          "desc": "SubQuery Oluşturucular/Burs Programı SQT Ağ sözleşmesi dahili MVP Koordinatörü ve istemci SDK uygulamaları"
+        },
+        "roadmap3": {
+          "sub_title": "2021 4. Çeyrek Sonu",
+          "title": "Token Testi",
+          "desc": "SubQuery Oluşturucular/Burs Programı SQT Ağ sözleşmesi dahili MVP Koordinatörü ve istemci SDK uygulamaları"
+        },
+        "roadmap4": {
+          "sub_title": "2021 4. Çeyrek Sonu",
+          "title": "Alfa Testi",
+          "desc": "SubQuery Oluşturucular/Burs Programı SQT Ağ sözleşmesi dahili MVP Koordinatörü ve istemci SDK uygulamaları"
+        },
+        "roadmap5": {
+          "sub_title": "2021 4. Çeyrek Sonu",
+          "title": "Konsept",
+          "desc": "SubQuery Oluşturucular/Burs Programı SQT Ağ sözleşmesi dahili MVP Koordinatörü ve istemci SDK uygulamaları"
+        }
+      }
+    },
+    "FAQ": {
+      "title": "SSS",
+      "tagline": "Herhangi bir sorunuz mu var? Yardımcı olmak için buradayız.",
+      "questions": {
+        "q1": {
+          "title": "WOW nedir?",
+          "desc": "WOW LLC, gerçek dünya varlıklarının tokenleştirilmesini sağlayan bir blockchain platformudur. Ekosistemimiz, gayrimenkul, kıymetli metaller ve diğer emtialar gibi varlıkları tokenleştirmek, bunlara yatırım yapmak ve yönetmek için araçlar sağlayarak blockchain teknolojisi aracılığıyla şeffaflık ve verimlilik sağlar."
+        },
+        "q2": {
+          "title": "WOW LLC ile hangi varlıklar tokenleştirilebilir?",
+          "desc": "WOW LLC, gayrimenkul, sanat eseri, altın ve şirket tahvilleri de dahil olmak üzere çeşitli varlıkların tokenleştirilmesini destekler. Platformumuz, neredeyse her türlü değerli varlığı blockchain'e taşıma esnekliği sunar."
+        },
+        "q3": {
+          "title": "WOW LLC ile Yatırıma Nasıl Başlanır?",
+          "desc": "WOW LLC ile yatırıma başlamak için {url} adresini ziyaret edin. {connect} öğesine tıklayın ve DeFi Web3 cüzdanınızı kullanarak bağlanın; MetaMask veya Trust Wallet'ı öneriyoruz. Ethereum Zincirine (ERC20) bağlı olduğunuzdan ve cüzdanınızda yeterli ETH bulunduğundan emin olun. Tercih ettiğiniz para birimini (ETH, USDT veya USDC) seçin, istenen satın alma tutarını girin ve {buy} öğesine tıklayın. İşlemi cüzdanınızda tamamlayın."
+        },
+        "q4": {
+          "title": "WOW Token'ın Amacı Nedir?",
+          "desc": "WOW, WOW LLC token'ının sembolüdür. WOW token'ı, WOW LLC ekosistemi içinde yönetim için kullanılır."
+        },
+        "q5": {
+          "title": "WOW Token'larım bana nasıl teslim edilecek?",
+          "desc": "WOW LLC (WOW) token'ları gerçek zamanlı olarak cüzdanınıza aktarılır. Cüzdanınızdaki token miktarını görüntülemek için lütfen WOW'u özel bir token olarak ekleyin."
+        },
+        "q6": {
+          "title": "WOW LLC ekibiyle nasıl iletişime geçebilirim?",
+          "desc": "Bizimle iletişim formumuz aracılığıyla: {url} veya support@wow.llc adresinden e-posta göndererek iletişime geçebilirsiniz."
+        },
+        "q7": {
+          "title": "WOW token'larımı nasıl satabilirim?",
+          "desc": "Şu anda ön satış aşamasında olduğumuz için token'larınızı satamaz veya transfer edemezsiniz. WOW LLC faaliyete geçtiğinde, kullanıcılar bunları Uniswap'te serbestçe işlem görebileceklerdir."
+        },
+        "q8": {
+          "title": "Cüzdanım hack'lenirse ne yapmalıyım?",
+          "desc": "Ne yazık ki, bu durumda yapabileceğimiz çok az şey var. Her zaman şunu unutmayın: Tohum İfadenizi veya Özel Anahtarınızı asla kimseyle paylaşmayın. Bunlar son derece hassas bilgilerdir ve her zaman güvende tutulmalıdır."
+        }
+      }
+    }
+  },
+  "Footer": {
+    "Navigation": {
+      "home": "ANA SAYFA",
+      "Our-projects": "PROJELERİMİZ",
+      "out-team": "EKİBİMİZ",
+      "News-faq": "HABERLER SSS",
+      "Documents": "BELGELER"
+    },
+    "job-career": "Gizlilik ve Politikalar",
+    "terms-condition": "Şartlar ve Koşullar",
+    "help-center": "Yardım Merkezi"
+  }
+}

@@ -1,0 +1,187 @@
+{
+    "SEO": {
+        "title": "World of Web3",
+        "description": "WOW LLC is revolutionizing global asset management."
+    },
+    "Header": {
+        "button": "BUY NOW",
+        "Ecosystem": "Ecosystem",
+        "Tokenomics": "Tokenomics",
+        "Whitepaper": "Whitepaper",
+        "Win-3M": "Win $3M",
+        "Roadmap": "Roadmap",
+        "Faq": "faqs"
+    },
+    "HomePage": {
+        "title": "WOW LLC",
+        "tagline": "The Future of Asset Management",
+        "desc": "WOW LLC is revolutionizing global asset management. Tokenize and own real-world assets—real estate, art, commodities, and intellectual property—seamlessly on the blockchain. Unlock limitless liquidity, borderless ownership, and boundless investment opportunities. With blockchain-driven transparency and efficiency, WOW LLC is creating a decentralized financial ecosystem where innovation meets opportunity.",
+        "button1": "Whitepaper",
+        "button2": "Certik Audit",
+        "countdown": {
+            "title": "Presale",
+            "title2": "Stage 1",
+            "line1": "1 WOW = $0.01",
+            "line2": "Next Stage Price = $0.03",
+            "line3": "Launch Price = $0.9",
+            "skill-feature_list": {
+                "line1": "Value",
+                "line2": "of technology invested",
+                "line3": "Private",
+                "line4": "sale",
+                "chosen": "chosen"
+            },
+            "lable1": "Amount in",
+            "lable1-span": " You Pay:",
+            "placeholder1": "Enter Ammount",
+            "label2": "Amount in Tokens You Receive:",
+            "formBtn": "Connect Wallet",
+            "submitBtn":"Submit",
+            "hot-to-buy": "How to Buy?",
+            "giveawayBtn": "$3 Million Giveaway",
+            "Getting-Error": "Getting Error? Click Here?"
+        },
+        "Brand": {
+            "title": "Security Audits"
+        },
+        "IntroRealEstate": {
+            "title": "Unlock Limitless Investment Opportunities",
+            "tagline": "Introducing Real Estate",
+            "Q1": {
+                "txt": "Invest in Real-World Assets:",
+                "ans": "Seamlessly access a diverse range of tokenized assets, from real estate to commodities and businesses."
+            },
+            "Q2": {
+                "txt": "Fractional Ownership: ",
+                "ans": "Own a share of high-value assets, making exclusive investments accessible to all."
+            },
+            "Q3": {
+                "txt": "Democratized Investing: ",
+                "ans": "simple, secure, and transparent platform designed to diversify your portfolio effortlessly."
+            },
+            "Q4": {
+                "txt": "Real Estate for Everyone: ",
+                "ans": "Enter the property market without high capital barriers."
+            },
+            "Q5": {
+                "txt": "Own More, Invest Smarter: ",
+                "ans": "Acquire shares in precious metals, startups, and thriving industries with just a few clicks."
+            },
+            "Q6": {
+                "txt": "Borderless Market Access: ",
+                "ans": "Tap into global investment opportunities, all from one powerful platform."
+            }
+        },
+        "IntroDEX": {
+            "title": "WOW Ecosystem",
+            "p": "Step into the future of blockchain and digital assets with WOW LLC. Whether you're investing in real estate, tokenizing assets, or diving into the world of NFTs, our platform provides the tools to elevate your financial journey.",
+            "p2": "Trade securely, access token funding, and maximize your returns with advanced yield-optimization strategies. Powered by seamless multi-chain technology, WOW LLC ensures efficient transactions and limitless investment growth.",
+            "partners": {
+                "p1": {
+                    "title": "WOW Estate",
+                    "desc": "WOW Estate bridges real-world assets with blockchain, allowing users to invest in tokenized real estate securely and seamlessly, making property ownership accessible, transparent, and borderless."
+                },
+                "p2": {
+                    "title": "WOW Bank",
+                    "desc": "WOW Bank offer secure and flexible offshore banking, providing seamless financial services, smart investment opportunities, and global access to manage your wealth with confidence."
+                },
+                "p3": {
+                    "title": "Token Locker",
+                    "desc": "WOW Token Locker lets you securely lock LPs, NFTs, and tokens, ensuring trust, transparency, and protection for your assets. Safe, decentralized, and easy to use."
+                },
+                "p4": {
+                    "title": "Ai Wallet",
+                    "desc": "Your crypto, your way! WOW Ai Wallet offers AI-powered automation, secure asset management, and seamless cross-chain transactions, making crypto simple for everyone."
+                },
+                "p5": {
+                    "title": "Ai DEX",
+                    "desc": "Welcome to WOW Ai DEX, the AI-powered decentralized exchange offering smart trading insights, the best prices, and effortless profit maximization for traders of all levels."
+                },
+                "p6": {
+                    "title": "Token Minter",
+                    "desc": "WOW Token Minter makes creating and launching tokens easy with secure, code-free deployment. No coding needed—just mint, customize, and launch your token effortlessly!"
+                }
+            }
+        },
+        "Roadmap": {
+            "title": "Our Roadmap",
+            "data": {
+                "roadmap1": {
+                    "sub_title": "End of Q4 2021",
+                    "title": "Research",
+                    "desc": "SubQuery Builders/Grants Program SQT Network contract internal MVP Coordinator and client SDK implementations"
+                },
+                "roadmap2": {
+                    "sub_title": "End of Q4 2021",
+                    "title": "App Beta Test",
+                    "desc": "SubQuery Builders/Grants Program SQT Network contract internal MVP Coordinator and client SDK implementations"
+                },
+                "roadmap3": {
+                    "sub_title": "End of Q4 2021",
+                    "title": "Token Test",
+                    "desc": "SubQuery Builders/Grants Program SQT Network contract internal MVP Coordinator and client SDK implementations"
+                },
+                "roadmap4": {
+                    "sub_title": "End of Q4 2021",
+                    "title": "Alpha Test",
+                    "desc": "SubQuery Builders/Grants Program SQT Network contract internal MVP Coordinator and client SDK implementations"
+                },
+                "roadmap5": {
+                    "sub_title": "End of Q4 2021",
+                    "title": "Concept",
+                    "desc": "SubQuery Builders/Grants Program SQT Network contract internal MVP Coordinator and client SDK implementations"
+                }
+            }
+        },
+        "FAQ": {
+            "title": "FAQs",
+            "tagline": "Do have any kind of questions? We're here to help.",
+            "questions": {
+                "q1": {
+                    "title": "What is WOW?",
+                    "desc": "WOW LLC is a blockchain platform enabling the tokenization of real-world assets. Our ecosystem provides tools to tokenize, invest in, and manage assets like real estate, precious metals, and other commodities, ensuring transparency and efficiency through blockchain technology."
+                },
+                "q2": {
+                    "title": "Which assets can be tokenized with WOW LLC?",
+                    "desc": "WOW LLC supports the tokenization of diverse assets, including real estate, art, gold, and corporate bonds. Our platform offers the flexibility to bring nearly any valuable asset onto the blockchain."
+                },
+                "q3": {
+                    "title": "How to Start Investing with WOW LLC?",
+                    "desc": "To begin investing with WOW LLC, visit {url}. Click {connect} and connect using your DeFi Web3 wallet; we recommend MetaMask or Trust Wallet. Ensure you are connected to the Ethereum Chain (ERC20) and have sufficient ETH in your wallet. Select your preferred currency (ETH, USDT, or USDC), input the desired purchase amount, and click {buy}. Complete the transaction within your wallet."
+                },
+                "q4": {
+                    "title": "What is the Purpose of the WOW Token?",
+                    "desc": "WOW is the symbol of WOW LLC's token. The WOW token is used for governance within the WOW LLC ecosystem.."
+                },
+                "q5": {
+                    "title": "How will WOW Tokens be delivered to me?",
+                    "desc": "WOW LLC (WOW) tokens are transferred to your wallet in real-time. To view the amount of tokens in your wallet, please add WOW as a custom token."
+                },
+                "q6": {
+                    "title": "How can I get in touch with the WOW LLC team?",
+                    "desc": "You can reach out to us through our contact form: {url} or by emailing us at: support@wow.llc."
+                },
+                "q7": {
+                    "title": "How can I sell my WOW tokens?",
+                    "desc": "As we are currently in presale, you cannot sell or transfer your tokens. Once WOW LLC goes live, users will be able to trade them freely on Uniswap."
+                },
+                "q8": {
+                    "title": "What should I do if my wallet is hacked?",
+                    "desc": "Unfortunately, there's little we can do in this case. Always remember: Never share your Seed Phrase or Private Key with anyone. These are highly sensitive details and should remain secure at all times."
+                }
+            }
+        }
+    },
+    "Footer": {
+        "Navigation": {
+            "home": "HOME",
+            "Our-projects": "OUR PROJECTS",
+            "out-team": "OUR TEAM",
+            "News-faq": "NEWS FAQ",
+            "Documents": "DOCUMENTS"
+        },
+        "job-career": "Privacy & Policy",
+        "terms-condition": "Terms and Condition",
+        "help-center": "Help Center"
+    }
+}
