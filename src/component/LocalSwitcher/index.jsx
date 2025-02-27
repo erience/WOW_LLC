@@ -3,6 +3,8 @@ import { useLocale } from "next-intl";
 import { useParams } from "next/navigation";
 import { useEffect, useRef, useState, useTransition } from "react";
 import Flag from 'react-world-flags'
+import globeLogo from "@/assets/img/icons/globe.svg";
+import Image from "next/image";
 
 
 export default function LocalSwitcher() {
@@ -64,7 +66,7 @@ export default function LocalSwitcher() {
                 }}
                 disabled={isPending}
             >
-                <img src="/assets/img/icons/globe.svg" alt="" />&nbsp; {locale.toUpperCase()}
+                <Image src={globeLogo} alt="" />&nbsp; {locale.toUpperCase()}
             </button>
             {isDropdownOpen && !isPending && (
                 <ul className="locale-list" ref={dropdownRef}>

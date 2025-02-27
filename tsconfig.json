@@ -24,9 +24,6 @@
     "paths": {
       "@/*": [
         "./src/*"
-      ],
-      "@/assets/*": [
-        "./public/assets/*"
       ]
     },
     "target": "ESNext",
