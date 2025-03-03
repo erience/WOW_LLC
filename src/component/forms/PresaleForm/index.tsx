@@ -125,6 +125,30 @@ const PresaleForm = () => {
     }
   }
 
+  useEffect(() => {
+    const getShowEthPrice = async () => {
+      if (
+        selectedCurrency === "eth" &&
+        initPresaleContract &&
+        paymentAmount != 0
+      ) {
+        const ethAmountFromInput = paymentAmount;
+        const ethAmountInWei = await web3Connect.utils.toWei(
+          ethAmountFromInput.toString(),
+          "ether"
+        );
+        const ethEquivalent = await initPresaleContract.methods
+          .getReceivablePresaleTokens(ethAmountInWei, false)
+          .call();
+        const humanReadableSwapPriceForETH = Number(ethEquivalent) / 10 ** 18;
+        setShowEthPrice(humanReadableSwapPriceForETH);
+      }else{
+        setShowEthPrice(0);
+      }
+    };
+    getShowEthPrice();
+  }, [selectedCurrency, initPresaleContract, paymentAmount]);
+
   const swapforUSDT = async () => {
     try {
       if (!isConnected || !address) {
@@ -189,11 +213,14 @@ const PresaleForm = () => {
 
       // Get Receivable Presale Tokens using USDT
       const ethAmountFromInput = paymentAmount;
+      const ethAmountInWei = await web3Connect.utils.toWei(
+        ethAmountFromInput.toString(),
+        "ether"
+      );
       const ethEquivalent = await initPresaleContract.methods
-        .getReceivablePresaleTokens(ethAmountFromInput, false)
+        .getReceivablePresaleTokens(ethAmountInWei, false)
         .call();
       const humanReadableSwapPriceForETH = Number(ethEquivalent) / 10 ** 18;
-      setShowEthPrice(humanReadableSwapPriceForETH);
       console.log("ETH Output Price:", humanReadableSwapPriceForETH);
 
       // const approveTx = await tokenContract.methods
@@ -209,12 +236,9 @@ const PresaleForm = () => {
       // }
 
       // Swap with ETH
-      const ethAmountInWei =await web3Connect.utils.toWei(
-        ethAmountFromInput.toString(),
-        "ether"
-      );
+
       const swapTxforETH = await initPresaleContract.methods
-        .swapForETH()
+        .swapForETH(ethAmountInWei)
         .send({ from: address, value: ethAmountInWei });
 
       if (swapTxforETH.status) {
@@ -298,7 +322,9 @@ const PresaleForm = () => {
             </div>
           ))}
         </div>
-        <h1 className="text-white">{showEthPrice}</h1>
+        {/* {showEthPrice != 0 && (
+          <p className="text-white text-base mt-1">ETH Price: {showEthPrice}</p>
+        )} */}
         {/* Payment Input Field */}
         <div className={s.inputGroup}>
           <label htmlFor="paymentAmount">
