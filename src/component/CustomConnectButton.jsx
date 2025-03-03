@@ -32,7 +32,7 @@ const CustomConnectButton = ({ classChanged }) => {
                             <button className={classChanged ? classChanged : "btn2"} onClick={openConnectModal} type="button">
                                 Connect Wallet
                             </button>
-                        ) : chain.unsupported ? (
+                        ) : chain.unsupported || chain.id != 1 ? (
                             <button className={classChanged ? classChanged : "btn2"} onClick={openChainModal} type="button">
                                 Wrong Network
                             </button>

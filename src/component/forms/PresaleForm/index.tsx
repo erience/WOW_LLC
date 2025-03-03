@@ -31,7 +31,8 @@ const PresaleForm = () => {
     const [selectedCurrency, setSelectedCurrency] = useState<string>(currencies[0].id);
     const [paymentAmount, setPaymentAmount] = useState<number | "">("");
     const [tokenAmount, setTokenAmount] = useState<number>(0);
-    const networkId = 11155111;
+    // const networkId = 11155111;
+    const networkId = 1;
     const rpcURL = process.env.NEXT_PUBLIC_API_RPCURL
     const presaleContract = process.env.NEXT_PUBLIC_API_PRESALECONTRACT
     const usdtContract = process.env.NEXT_PUBLIC_API_USDTCONTRACT
@@ -309,7 +310,7 @@ const PresaleForm = () => {
                             value={tokenAmount}
                             readOnly
                         />
-                        <Image width={100} height={100} src={"/assets/img/icons/WOW.svg"} alt="wow" style={{width: "32px", height: "32px"}} />
+                        <Image width={100} height={100} src={"/assets/img/icons/WOW.svg"} alt="wow" style={{ width: "32px", height: "32px" }} />
                     </div>
                 </div>
 
