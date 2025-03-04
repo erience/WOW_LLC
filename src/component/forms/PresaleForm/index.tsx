@@ -138,11 +138,11 @@ const PresaleForm = () => {
           "ether"
         );
         const ethEquivalent = await initPresaleContract.methods
-          .getReceivablePresaleTokens(ethAmountInWei, false)
+          .getReceivablePresaleTokens(ethAmountInWei, true)
           .call();
         const humanReadableSwapPriceForETH = Number(ethEquivalent) / 10 ** 18;
         setShowEthPrice(humanReadableSwapPriceForETH);
-      }else{
+      } else {
         setShowEthPrice(0);
       }
     };
@@ -218,7 +218,7 @@ const PresaleForm = () => {
         "ether"
       );
       const ethEquivalent = await initPresaleContract.methods
-        .getReceivablePresaleTokens(ethAmountInWei, false)
+        .getReceivablePresaleTokens(ethAmountInWei, true)
         .call();
       const humanReadableSwapPriceForETH = Number(ethEquivalent) / 10 ** 18;
       console.log("ETH Output Price:", humanReadableSwapPriceForETH);
@@ -323,7 +323,7 @@ const PresaleForm = () => {
           ))}
         </div>
         {/* {showEthPrice != 0 && (
-          <p className="text-white text-base mt-1">ETH Price: {showEthPrice}</p>
+          <p className="text-white text-base mt-5">Price: {showEthPrice.toString()}</p>
         )} */}
         {/* Payment Input Field */}
         <div className={s.inputGroup}>
@@ -353,7 +353,12 @@ const PresaleForm = () => {
         <div className={s.inputGroup}>
           <label htmlFor="tokenAmount">{t("label2")}</label>
           <div className={s.inputWrap}>
-            <input type="text" id="tokenAmount" value={tokenAmount} readOnly />
+            {selectedCurrency === "eth" &&
+              <input type="text" id="tokenAmount" value={showEthPrice} readOnly />
+            }
+            {selectedCurrency === "usdt" &&
+              <input type="text" id="tokenAmount" value={tokenAmount} readOnly />
+            }
             <Image
               width={100}
               height={100}
